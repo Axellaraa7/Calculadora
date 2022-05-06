@@ -1,0 +1,94 @@
+@media screen and (max-width: 1480px) {
+    .navHeader{
+        position: relative;
+        width:10%;
+        margin-left: 55%;
+        background: url("../ASSETS/ICONS/menu.jpg") no-repeat center top;
+    }
+
+    .navHeader:hover{
+        cursor: pointer;
+    }
+    .navHeader:hover>ul{
+        display:block;
+    }
+
+    .navHeader ul{
+        display:none;
+        position:absolute;
+
+        top:100%;
+        right:1%;
+
+        width:220%;
+
+        animation:none;
+    } 
+    
+    .navHeader ul li{
+        width:100%;
+        background-color: hsl(285,85%,40%);
+    }
+
+    .navHeader ul li.firstLink{
+        border-radius: 5px 5px 0 0;
+    }
+
+    .navHeader ul li.lastLink{
+        border-radius: 0 0 5px 5px;
+    }
+
+    .navHeader ul li a{
+        display:block;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .navHeader ul li.firstLink a{
+        border-radius: 5px 5px 0 0;
+    }
+
+    .navHeader ul li.lastLink a{
+        border-radius: 0 0 5px 5px;
+    }
+
+    .navHeader ul li a:hover{
+        box-shadow: none;
+        background-color: hsl(285,85%,48%);
+    }
+
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .sectionHeader figure{
+        width: 50%;
+    }
+
+    .navHeader{
+        width:10%;
+        margin-left: 40%;
+    }
+
+    .navHeader ul{
+        width:320%;
+    } 
+
+}
+
+@media screen and (max-width: 700px) {
+    .sectionHeader figure{
+        width: 60%;
+    }
+
+    .navHeader{
+        width:30%;
+        margin-left: 10%;
+    }
+
+    .navHeader ul{
+        width:140%;
+    } 
+}
+
+/*600,720,960,1200,1560,1920*/

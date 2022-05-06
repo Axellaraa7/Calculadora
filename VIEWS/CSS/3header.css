@@ -1,0 +1,78 @@
+* {
+  margin:0;
+  padding:0;
+
+  box-sizing: border-box;
+
+  font-size:.625rem;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Pally",sans-serif;
+}
+
+:root{
+  --alpha: 1;
+  --mCHS: 179,85%;
+  --mCL: 25%;
+  --mC: var(--mCHS),var(--mCL),var(--alpha);
+  --sCHS:345,100%;
+  --sCL: 59%;
+  --sC:var(--sCHS),var(--sCL),var(--alpha);
+  --tCHS:220,17%;
+  --tCL:17%;
+  --tC:var(--tCHS),var(--tCL),var(--alpha);
+  --fCHS:0,0%;
+  --fCL: 92%;
+  --fC:var(--fCHS),var(--fCL),var(--alpha);
+}
+
+h1{ font-size: 3.2rem;}
+h2{ font-size: 2.6rem;}
+h3{ font-size: 2.2rem;}
+h4{ font-size: 2.0rem;}
+
+header{
+  position:relative;
+  width:100vw;
+  padding: 0 5vw;
+
+  background-color: hsla(var(--mC));
+  box-shadow:0px 0px 7px 2px inset hsla(var(--fC));
+}
+
+figure{
+  width:350px;
+  height:100px;
+  transition: transform .15s ease-in;
+}
+
+figure:hover{
+  transform: scale(1.1);
+}
+
+nav{
+  position:absolute;
+  right:5vw;
+  top:calc((100px / 2) - 1.6rem + .5rem);
+}
+
+.ulNavCalc>li{
+  margin:0 1rem;
+}
+
+.ulNavCalc li:last-child .btnNav{
+  background-color: hsla(var(--sC));
+}
+
+.ulNavCalc li:last-child .btnNav:hover{
+  background-color: hsla(var(--sCHS),24%,var(--alpha));
+  color:hsla(var(--fC));
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+footer {
+  width:100vw;
+  background-color: hsla(var(--fC));
+}
+
+/*PrimerColumna*/
+
+.footerCol{
+  display:inline-block;
+  vertical-align: top;
+  
+  width:30vw;
+  padding:2rem;
+  margin:0 2rem;
+}
+
+.footerCol figure{
+  width:250px;
+  height: 100px;
+
+  margin:0 auto;
+}
+
+.footerCol>p{
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+.footerCol:first-child{
+  width:35vw;
+  margin-left:0;
+}
+
+/*SegundaColumna*/
+
+.col2{
+  margin:.5rem 1rem;
+  column-count: 2;
+}
+
+.ulVertical li a{
+  color:hsla(var(--mC));
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.ulVertical li a:hover{
+  color:hsla(var(--tC));
+}
+
+/*TercerColumna*/
+
+.footerCol:last-child{
+  margin-right:0;
+}
+
+address{
+  margin-top:2rem;
+}
+
+.ulContactFooter li{
+  margin:0 2rem;
+}
+
+address p{
+  margin-top:1rem;
+  
+  font-size: 1.6rem;
+  text-align:right;
+}
+
+
+
+
+

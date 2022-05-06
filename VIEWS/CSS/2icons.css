@@ -1,0 +1,31 @@
+.icon{
+  vertical-align: middle;
+}
+
+.icon-right{
+  margin-right:1rem;
+}
+
+.icon-left{
+  margin-left:1rem;
+}
+
+.size16{
+  width:2rem;
+  height:2rem;
+}
+
+.size64{
+  width:6.4rem;
+  height:6.4rem;
+}
+
+.iconContainer{
+  display:block;
+  box-shadow: 0px 3px 6px 0px hsla(var(--tCHS),70%,1);
+  transition: all .25s ease;
+}
+
+.iconContainer:hover{
+  transform: scale(1.2);
+}

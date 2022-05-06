@@ -1,0 +1,76 @@
+main{
+  position:relative;
+  padding:1rem 3rem;
+  background-image: url("./../ASSETS/ICONS/background.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.mainSection,.mainAside{
+  display:inline-block;
+  vertical-align: top;
+
+  padding:1rem 3rem;
+}
+
+/*Seccion calculadora */
+
+.mainSection{
+  width:60vw;
+}
+
+.calculadora{
+  width:700px;
+  margin:0 auto;
+  border-collapse: collapse;
+}
+
+.calculadora th input{
+  padding:.5rem 2rem;
+  font-size: 1.6rem;
+  width:100%;
+  text-align: end;
+}
+
+.calculadora td,.calculadora th{
+  padding:1rem;
+  text-align: center;
+}
+
+.btnOperator,.btnNumber,td,th{
+  border:1px solid hsla(var(--fC));
+  box-shadow: 0px 0px 5px 1px hsla(var(--fC));
+}
+
+.btnOperator{
+  background-color: hsla(var(--mC));
+}
+
+.btnOperator:hover{
+  background-color: hsla(var(--mCHS),65%,1);
+}
+
+.btnNumber{
+  background-color: hsla(var(--fCHS),85%,1);
+}
+
+tr:last-child td:nth-child(2) .btnNumber{
+  padding:1rem 10rem;
+}
+
+.btnNumber:hover{
+  background-color: hsla(var(--fCHS),100%,1);
+}
+
+/*Seccion aside*/
+
+.mainAside{
+  position:absolute;
+  right:3rem;
+  width:35vw;
+  border:2px solid greenyellow;
+}
+
+.grupos{
+  border:2px solid red;
+}

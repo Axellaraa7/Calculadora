@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <title>MATH CALC</title>
+
+  <link rel="stylesheet" href="CSS/1common.css">
+  <link rel="stylesheet" href="CSS/2icons.css">
+  <link rel="stylesheet" href="CSS/3header.css">
+  <link rel="stylesheet" href="CSS/4main.css">
+  <link rel="stylesheet" href="CSS/footer.css">
+
+  <link href="https://api.fontshare.com/css?f[]=pally@1&display=swap" rel="stylesheet">
+
+  <!--JS-->
+  <script src="JS/index.js" defer type="module"></script>
+</head>
+
+<body>
+  <header id="header"></header>
+
+  <main id="main">
+    <section class="mainSection">
+      <table class="calculadora">
+        <thead>
+          <tr>
+            <th colspan="4"><input type="text" placeholder="Realiza algún cálculo" id="display"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><button value="^" id="power" class="btn btnOperator">^</button></td>
+            <td><button value="sqr" id="sqr" class="btn btnOperator">SQR</button></td>
+            <td><button value="%" id="porcentage" class="btn btnOperator">%</button></td>
+            <td><button value="/" id="split" class="btn btnOperator">/</button></td>
+          </tr>
+          <tr>
+            <td><button value="7" id="7" class="btn btnNumber">7</button></td>
+            <td><button value="8" id="8" class="btn btnNumber">8</button></td>
+            <td><button value="9" id="9" class="btn btnNumber">9</button></td>
+            <td><button value="*" id="product" class="btn btnOperator">*</button></td>
+          </tr>
+          <tr>
+            <td><button value="4" id="4" class="btn btnNumber">4</button></td>
+            <td><button value="5" id="5" class="btn btnNumber">5</button></td>
+            <td><button value="6" id="6" class="btn btnNumber">6</button></td>
+            <td><button value="-" id="minus" class="btn btnOperator">-</button></td>
+          </tr>
+          <tr>
+            <td><button value="1" id="1" class="btn btnNumber">1</button></td>
+            <td><button value="2" id="2" class="btn btnNumber">2</button></td>
+            <td><button value="3" id="3" class="btn btnNumber">3</button></td>
+            <td><button value="+" id="plus" class="btn btnOperator">+</button></td>
+          </tr>
+          <tr>
+            <td><button value="." id="dot" class="btn btnOperator">.</button></td>
+            <td colspan="2"><button value="0" id="0" class="btn btnNumber">0</button></td>
+            <td><button value="=" id="equal" class="btn btnOperator">=</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <aside class="mainAside" id="mainAside"></aside>
+  </main>
+
+  <footer id="footer"></footer>
+</body>
+
+</html>
