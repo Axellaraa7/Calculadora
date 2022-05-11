@@ -28,43 +28,69 @@
       <table class="calculadora">
         <thead>
           <tr>
-            <th colspan="4"><input type="text" placeholder="Realiza algún cálculo" id="display"></th>
+            <th colspan="7"><input type="text" placeholder="Realiza algún cálculo" id="display"></th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><button value="^" id="power" class="btn btnOperator">^</button></td>
-            <td><button value="sqr" id="sqr" class="btn btnOperator">SQR</button></td>
-            <td><button value="%" id="porcentage" class="btn btnOperator">%</button></td>
-            <td><button value="/" id="split" class="btn btnOperator">/</button></td>
+            <td class="formRadio">
+              <div class="radioElementY">
+                <input type="radio" name="grades" id="rad"><label for="rad">RAD</label>
+              </div>
+              <div class="radioElementY">
+                <input type="radio" name="grades" id="deg"><label for="deg">DEG</label>
+              </div>
+            </td>
+            <td><button class="btn btnNeonWhite btnOperator">PI</button></td>
+            <td><button class="btn btnNeonWhite btnOperator">E</button></td>
+            <td><button class="btn btnNeonWhite btnOperator">(</button></td>
+            <td><button class="btn btnNeonWhite btnOperator">)</button></td>
+            <td><button class="btn btnNeonWhite btnOperator">%</button></td>
+            <td><button value="clr" class=" btn btnNeonWhite btnOperator">C</button>
+            </td>
           </tr>
           <tr>
-            <td><button value="7" id="7" class="btn btnNumber">7</button></td>
-            <td><button value="8" id="8" class="btn btnNumber">8</button></td>
-            <td><button value="9" id="9" class="btn btnNumber">9</button></td>
-            <td><button value="*" id="product" class="btn btnOperator">*</button></td>
+            <td><button class="btn btnNeonWhite btnOperator">COS</button></td>
+            <td><button class="btn btnNeonWhite btnOperator">SIN</button></td>
+            <td><button class="btn btnNeonWhite btnOperator">TAN</button></td>
+            <td><button value="7" id="7" class=" btn btnNeonWhite btnNumber">7</button>
+            </td>
+            <td><button value="8" id="8" class=" btn btnNeonWhite btnNumber">8</button></td>
+            <td><button value="9" id="9" class=" btn btnNeonWhite btnNumber">9</button></td>
+            <td><button value="*" id="product" class=" btn btnNeonWhite btnOperator">*</button></td>
           </tr>
           <tr>
-            <td><button value="4" id="4" class="btn btnNumber">4</button></td>
-            <td><button value="5" id="5" class="btn btnNumber">5</button></td>
-            <td><button value="6" id="6" class="btn btnNumber">6</button></td>
-            <td><button value="-" id="minus" class="btn btnOperator">-</button></td>
+            <td><button class="btn btnNeonWhite btnOperator">ACOS</button></td>
+            <td><button class="btn btnNeonWhite btnOperator">ASIN</button></td>
+            <td><button class="btn btnNeonWhite btnOperator">ATAN</button></td>
+            <td><button value="4" id="4" class=" btn btnNeonWhite btnNumber">4</button></td>
+            <td><button value="5" id="5" class=" btn btnNeonWhite btnNumber">5</button></td>
+            <td><button value="6" id="6" class=" btn btnNeonWhite btnNumber">6</button></td>
+            <td><button value="-" id="minus" class=" btn btnNeonWhite btnOperator">-</button></td>
           </tr>
           <tr>
-            <td><button value="1" id="1" class="btn btnNumber">1</button></td>
-            <td><button value="2" id="2" class="btn btnNumber">2</button></td>
-            <td><button value="3" id="3" class="btn btnNumber">3</button></td>
-            <td><button value="+" id="plus" class="btn btnOperator">+</button></td>
+            <td><button class="btn btnNeonWhite btnOperator">X<sup>Y</sup></button></td>
+            <td><button class="btn btnNeonWhite btnOperator">Ln</button></td>
+            <td><button class="btn btnNeonWhite btnOperator">Log</button></td>
+            <td><button value="1" id="1" class=" btn btnNeonWhite btnNumber">1</button></td>
+            <td><button value="2" id="2" class=" btn btnNeonWhite btnNumber">2</button></td>
+            <td><button value="3" id="3" class=" btn btnNeonWhite btnNumber">3</button></td>
+            <td><button value="+" id="plus" class=" btn btnNeonWhite btnOperator">+</button></td>
           </tr>
           <tr>
-            <td><button value="." id="dot" class="btn btnOperator">.</button></td>
-            <td colspan="2"><button value="0" id="0" class="btn btnNumber">0</button></td>
-            <td><button value="=" id="equal" class="btn btnOperator">=</button></td>
+            <td><button class="btn btnNeonWhite btnOperator">X<sup>2</sup></button></td>
+            <td><button class="btn btnNeonWhite btnOperator">X<sup>3</sup></button></td>
+            <td><button class="btn btnNeonWhite btnOperator">X!</button></td>
+            <td><button value="." id="dot" class=" btn btnNeonWhite btnOperator">.</button></td>
+            <td><button value="0" id="0" class=" btn btnNeonWhite btnNumber">0</button></td>
+            <td><button value="=" id="equal" class=" btn btnNeonWhite btnOperator">=</button></td>
+            <td><button class="btn btnNeonWhite btnOperator">/</button></td>
           </tr>
         </tbody>
       </table>
     </section>
     <aside class="mainAside" id="mainAside"></aside>
+    <section class="historial"></section>
   </main>
 
   <footer id="footer"></footer>

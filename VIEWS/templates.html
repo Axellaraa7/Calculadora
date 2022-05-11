@@ -4,13 +4,40 @@
     </figure>
     <nav class="navHeader">
       <ul class="ulHorizontal ulNavCalc">
-          <li><a href="#" class="btn btnNav btnCalcNav">FORUM</a></li>
-          <li><a href="#" class="btn btnNav btnCalcNav">NOTES</a></li>
-          <li><a href="#" class="btn btnNav btnCalcNav">HISTORY</a></li>
-          <li><a href="#" class="btn btnNav btnCalcNav">CHEATSHEET</a></li>
-          <li><a href="#" class="btn btnNav btnCalcNav">LOGIN</a></li>
+          <li><a href="#" class="btn btnNav btnNeonWhite">FORUM</a></li>
+          <li><a href="#" class="btn btnNav btnNeonWhite">NOTES</a></li>
+          <li><a href="#" class="btn btnNav btnNeonWhite">HISTORY</a></li>
+          <li><a href="#" class="btn btnNav btnNeonWhite">CHEATSHEET</a></li>
+          <li><a href="#" class="btn btnNav btnNeonWhite">LOGIN</a></li>
       </ul>
     </nav>
+</template>
+
+<template id="contactTemplate">
+  <h3>Nos puedes contactar: </h3>
+  <address>
+    <ul class="ulHorizontal ulContactFooter">
+      <li><a href="" class="iconContainer"><img class="icon size64" src="./ASSETS/ICONS/gmail.svg"></a></li>
+      <li><a href="" class="iconContainer"><img class="icon size64" src="./ASSETS/ICONS/twitter.svg"></a></li>
+      <li><a href="" class="iconContainer"><img class="icon size64" src="./ASSETS/ICONS/github.svg"></a></li>
+      <li><a href="" class="iconContainer"><img class="icon size64" src="./ASSETS/ICONS/linkedin.svg"></a></li>
+      <li><a href="" class="iconContainer"><img class="icon size64" src="./ASSETS/ICONS/twitch.svg"></a></li>
+    </ul>
+    <p>&copy; 2022, Axel Lara</p>
+  </address>
+</template>
+
+<template id="slides">
+  <section class="grupos" id="grupos">
+    <button class="btn btnFourth" id="prev">&#60&#60</button>
+    <button class="btn btnFourth" id="next">&#62&#62</button>
+    <figure class="figureCarousel">
+      <a target="_blank" class="fadeOut" href="#">
+        <img>
+        <figcaption id="figCaptionMat"></figcaption>
+      </a>
+    </figure>
+  </section>
 </template>
 
 <template id="footerTemplate">
@@ -35,8 +62,7 @@
         <li><a href=""><img class="icon icon-right size16" src="./ASSETS/ICONS/arrow-right.svg">USEFUL SITES</a></li>
         <li><a href=""><img class="icon icon-right size16" src="./ASSETS/ICONS/arrow-right.svg">PRIVACY POLICY</a></li>
       </ul>
-    </div>
-    
+    </div> 
   </div>
   <div class="footerCol">
     <h2>Contactanos</h2>
@@ -44,28 +70,6 @@
   </div>
 </template>
 
-<template id="contactTemplate">
-  <h3>Nos puedes contactar: </h3>
-  <address>
-    <ul class="ulHorizontal ulContactFooter">
-      <li><a href="" class="iconContainer"><img class="icon size64" src="./ASSETS/ICONS/gmail.svg"></a></li>
-      <li><a href="" class="iconContainer"><img class="icon size64" src="./ASSETS/ICONS/twitter.svg"></a></li>
-      <li><a href="" class="iconContainer"><img class="icon size64" src="./ASSETS/ICONS/github.svg"></a></li>
-      <li><a href="" class="iconContainer"><img class="icon size64" src="./ASSETS/ICONS/linkedin.svg"></a></li>
-      <li><a href="" class="iconContainer"><img class="icon size64" src="./ASSETS/ICONS/twitch.svg"></a></li>
-    </ul>
-    <p>&copy; 2022, Axel Lara</p>
-  </address>
-</template>
 
-<template id="slides">
-  <section class="grupos">
-    <button class="buttonCarousel" id="prev">&#60&#60</button>
-    <button class="buttonCarousel" id="next">&#62&#62</button>
-    <figure id="matematicos" title="Albert Einstein">
-      <figcaption id="figCaptionMat"><a id="linkBiography" href="">Albert Einstein</a></figcaption>
-    </figure>
-  </section>
-</template>
   
   

@@ -12,22 +12,65 @@ img{
   border-radius:5px;
 
   cursor:pointer;
+
+  transition: all .15s ease-in;
+}
+
+.btnMain{
+  background-color: hsla(var(--mC));
+  border:3px solid hsla(var(--mC));
+  color: hsla(var(--fC)); 
+}
+
+.btnMain:hover{
+  background-color: transparent;
+}
+
+.btnSecond{
+  background-color: hsla(var(--sC));
+  border:3px solid hsla(var(--sC));
+  color: hsla(var(--fC));
+}
+
+.btnSecond:hover{
+  background-color: transparent;
+}
+
+.btnThird{
+  background-color: hsla(var(--tC));
+  border:3px solid hsla(var(--tC));
+  color: hsla(var(--fC));
+}
+
+.btnThird:hover{
+  background-color: transparent;
+}
+
+.btnFourth{
+  background-color: hsla(var(--fC));
+  border:3px solid hsla(var(--fC));
+  color: hsla(var(--tC));
+}
+
+.btnFourth:hover{
+  background-color: transparent;
 }
 
 .btnNav{
   background-color: hsla(var(--fCHS),var(--fCL),.7);
   color: hsla(var(--tC));
-  transition: all .15s ease-in;
-}
-
-.btnCalcNav{
-  border:1px solid hsla(var(--fC));
-  box-shadow:0px 0px 5px 1px hsla(var(--fC));
 }
 
 .btnNav:hover{
   background-color: hsla(var(--fC));
 }
+
+.btnNeonWhite,td,th,.grupos,.figureCarousel{
+  border:1px solid hsla(var(--fC));
+  box-shadow:0px 0px 5px 1px hsla(var(--fC));
+}
+
+
 
 /*LIB*/
 
@@ -43,6 +86,19 @@ img{
 
 .ulVertical li{
   padding:.5rem 2.4rem;
+}
+
+.radioElementY{
+  width:100%;
+  padding:.5rem; 
+}
+
+.radioElementY>*{
+  display:inline-block;
+  vertical-align: middle;
+  margin:0 .5rem;
+  font-size:1.6rem;
+  color: white;
 }
 
 

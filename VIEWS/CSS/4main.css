@@ -1,6 +1,7 @@
 main{
   position:relative;
-  padding:1rem 3rem;
+  padding:3rem;
+  min-height:100vh;
   background-image: url("./../ASSETS/ICONS/background.svg");
   background-size: cover;
   background-position: center;
@@ -11,35 +12,48 @@ main{
   vertical-align: top;
 
   padding:1rem 3rem;
+  margin:0 1rem;
+  border:2px solid white;
+
+  
+}
+
+.historial{
+  float:left;
+  margin-top:-30vh;
+  height:30vh;
+  border:2px solid green;
 }
 
 /*Seccion calculadora */
 
-.mainSection{
-  width:60vw;
+.mainSection,.historial{
+  width:calc(65vw - 6rem);
 }
 
 .calculadora{
-  width:700px;
+  width:60%;
   margin:0 auto;
   border-collapse: collapse;
 }
 
 .calculadora th input{
-  padding:.5rem 2rem;
+  padding:1rem 2rem;
   font-size: 1.6rem;
   width:100%;
   text-align: end;
+  outline:none;
+  border:1px solid hsla(var(--fC));
+  transition:box-shadow .2s 0s ease-in-out;
+}
+
+.calculadora th input:focus{
+  box-shadow:0px 0px 5px 1px hsla(var(--fC));
 }
 
 .calculadora td,.calculadora th{
-  padding:1rem;
+  padding:2rem;
   text-align: center;
-}
-
-.btnOperator,.btnNumber,td,th{
-  border:1px solid hsla(var(--fC));
-  box-shadow: 0px 0px 5px 1px hsla(var(--fC));
 }
 
 .btnOperator{
@@ -65,12 +79,64 @@ tr:last-child td:nth-child(2) .btnNumber{
 /*Seccion aside*/
 
 .mainAside{
-  position:absolute;
-  right:3rem;
-  width:35vw;
-  border:2px solid greenyellow;
+  width:calc(35vw - 6rem);
 }
 
 .grupos{
-  border:2px solid red;
+  position:relative;
+  margin:4rem 0;
+  padding:1.5rem;  
+  border-radius: 10px;
 }
+
+#prev{
+  position:absolute;
+  top:calc((100% / 2) - 2.3rem);
+  left:1rem;
+}
+
+#next{
+  position:absolute;
+  top:calc((100% / 2) - 2.3rem);
+  right:1rem;
+}
+
+.btnFourth:hover{
+  color:hsla(var(--fC));
+}
+
+.figureCarousel{
+  position:relative;
+  width: 55%;
+  height:200px;
+  margin: 0 auto;
+}
+
+.fadeOut{
+  opacity: 1;
+  transition: opacity .4s ease;
+}
+.fadeIn{
+  opacity: .2;
+  transition: opacity .4s ease;
+}
+
+#figCaptionMat{
+  position:absolute;
+  width:100%;
+  padding:1rem;
+  text-align: center;
+  bottom:0;
+  background-color: hsla(var(--tCHS),var(--tCL),.5);
+  font-size: 2rem;
+  color:hsla(var(--fC));
+  letter-spacing: .5rem;
+}
+
+
+
+
+
+
+
+
