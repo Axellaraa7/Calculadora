@@ -1,0 +1,34 @@
+{
+  "data":[
+    {
+      "name":"Aritmética",
+      "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Laurent_de_La_Hyre_-_Allegory_of_Arithmetic_-_Walters_371917.jpg/968px-Laurent_de_La_Hyre_-_Allegory_of_Arithmetic_-_Walters_371917.jpg?20120326034824",
+      "bio":"https://es.wikipedia.org/wiki/Aritm%C3%A9tica"
+    },
+    {
+      "name":"Geometría",
+      "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Geometria_%28Geometry%29.jpg/330px-Geometria_%28Geometry%29.jpg",
+      "bio":"https://es.wikipedia.org/wiki/Geometr%C3%ADa"
+    },
+    {
+      "name":"Algebra",
+      "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/1983_CPA_5426_%281%29.png/330px-1983_CPA_5426_%281%29.png",
+      "bio":"https://es.wikipedia.org/wiki/%C3%81lgebra"
+    },
+    {
+      "name":"Calculo",
+      "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/NautilusCutawayLogarithmicSpiral.jpg/330px-NautilusCutawayLogarithmicSpiral.jpg",
+      "bio":"https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal"
+    },
+    {
+      "name":"Probabilidad",
+      "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/The_Castle_of_Cards_Met_DP889020.jpg/640px-The_Castle_of_Cards_Met_DP889020.jpg",
+      "bio":"https://es.wikipedia.org/wiki/Probabilidad"
+    },
+    {
+      "name":"Estadistica",
+      "img":"https://upload.wikimedia.org/wikipedia/commons/0/02/KorrRes.png?20050430230843",
+      "bio":"https://es.wikipedia.org/wiki/Estad%C3%ADstica"
+    }
+  ]
+}

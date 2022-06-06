@@ -1,0 +1,21 @@
+{
+  "data":[
+    {
+      "name":"JAVASCRIPT",
+      "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/368px-Unofficial_JavaScript_logo_2.svg.png",
+      "bio":"https://es.wikipedia.org/wiki/JavaScript"
+    },{
+      "name":"PHP",
+      "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/300px-PHP-logo.svg.png",
+      "bio":"https://es.wikipedia.org/wiki/PHP"
+    },{
+      "name":"JAVA",
+      "img":"https://www.softzone.es/app/uploads-softzone.es/2021/11/Programacion-Java.jpg",
+      "bio":"https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)"
+    },{
+      "name":"SLQ",
+      "img":"https://upload.wikimedia.org/wikipedia/commons/6/6f/Sql_database_shortcut_icon.png",
+      "bio":"https://es.wikipedia.org/wiki/SQL"
+    }
+  ]
+}
