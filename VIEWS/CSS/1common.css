@@ -16,6 +16,19 @@ img{
   transition: all .15s ease-in;
 }
 
+.btnMQ{
+  padding:1rem 3rem;
+  font-size: 1.6rem;
+
+  border:none;
+  background-color: transparent;
+  border-radius:5px;
+
+  cursor:pointer;
+
+  transition: all .15s ease-in;
+}
+
 .btnMain{
   background-color: hsla(var(--mC));
   border:3px solid hsla(var(--mC));
@@ -70,8 +83,6 @@ img{
   box-shadow:0px 0px 5px 1px hsla(var(--fC));
 }
 
-
-
 /*LIB*/
 
 .ulHorizontal>li{
@@ -88,6 +99,27 @@ img{
   padding:.5rem 2.4rem;
 }
 
+.radioElementX{
+  display:inline-block;
+  margin: 0 .25rem;
+  
+}
+
+.radioElementX>input{
+  display:inline-block;
+  vertical-align: middle;
+  display:none;
+}
+
+.radioElementX>input:checked~label{
+  padding:1rem .5rem; 
+  border-radius:5px;
+}
+
+.radioElementX>label{
+  font-size:1.6rem;
+}
+
 .radioElementY{
   width:100%;
   padding:.5rem; 
@@ -100,6 +132,7 @@ img{
   font-size:1.6rem;
   color: white;
 }
+
 
 
 

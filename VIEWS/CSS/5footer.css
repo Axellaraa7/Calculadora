@@ -3,16 +3,18 @@ footer {
   background-color: hsla(var(--fC));
 }
 
-/*PrimerColumna*/
 
 .footerCol{
   display:inline-block;
   vertical-align: top;
-  
-  width:30vw;
   padding:2rem;
-  margin:0 2rem;
 }
+
+.footerCol:not(.footerCol:first-child){
+  width: 30vw
+}
+
+/*PrimerColumna*/
 
 .footerCol figure{
   width:250px;
@@ -27,14 +29,14 @@ footer {
 }
 
 .footerCol:first-child{
-  width:35vw;
+  width:39vw;
   margin-left:0;
 }
 
 /*SegundaColumna*/
 
 .col2{
-  margin:.5rem 1rem;
+  margin:.5rem;
   column-count: 2;
 }
 
@@ -59,7 +61,7 @@ address{
 }
 
 .ulContactFooter li{
-  margin:0 2rem;
+  margin:0 1.2rem;
 }
 
 address p{
